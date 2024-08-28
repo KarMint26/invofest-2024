@@ -53,7 +53,13 @@ const HeroHome = () => {
                   dataAos={"zoom-in"}
                   delayAos={"550"}
                   isOutline={true}
-                  handleClick={() => window.open("https://wa.me/6285972736905")}
+                  handleClick={() =>
+                    window.open(
+                      `https://wa.me/6285972736905?text=${encodeURIComponent(
+                        "Halo Kak, Saya Ingin Bertanya..."
+                      )}`
+                    )
+                  }
                 />
               </div>
             </div>

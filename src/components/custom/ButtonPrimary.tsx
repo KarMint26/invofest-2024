@@ -25,18 +25,6 @@ const ButtonPrimary = ({
 
   return (
     <React.Fragment>
-      {/* <div
-        data-aos={dataAos}
-        data-aos-delay={delayAos}
-        onClick={handleClick}
-        className={`${
-          isOutline
-            ? "bg-white border-invofest text-invofest hover:text-white hover:bg-invofest"
-            : "bg-invofest border-invofest text-white hover:bg-invofest_dark"
-        } border px-3 py-2 sm:px-4 sm:py-3 font-semibold rounded-md cursor-pointer text-[0.75rem] sm:text-base transition-all duration-300 ease-in-out`}
-      >
-        {text}
-      </div> */}
       {isOutline ? (
         <button
           data-aos={dataAos}
