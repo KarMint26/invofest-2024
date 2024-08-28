@@ -94,7 +94,7 @@ const Navbar = () => {
                   onClick={() => setOpenMenu(false)}
                 >
                   <FaTrophy />
-                  Kompetisi
+                  Competition
                 </Link>
               </li>
               <li>

@@ -53,7 +53,7 @@ const Footer = () => {
                       className="hover:text-invofest flex items-center gap-2"
                     >
                       <FaTrophy />
-                      Kompetisi
+                      Competition
                     </Link>
                   </li>
                   <li className="mb-4">
