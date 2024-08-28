@@ -7,6 +7,7 @@ import Competition from "./pages/Competition";
 import Navbar from "./components/custom/Navbar";
 import Workshop from "./pages/Workshop";
 import Footer from "./components/custom/Footer";
+import "aos/dist/aos.css";
 
 const App = () => {
   return (

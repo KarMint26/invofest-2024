@@ -11,7 +11,7 @@ import { FaYoutube } from "react-icons/fa";
 const Footer = () => {
   return (
     <React.Fragment>
-      <footer className="bg-invofest_secondary">
+      <footer className="bg-invofest_secondary mt-8">
         <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
           <div className="lg:flex lg:justify-between">
             <div className="mb-6 lg:mb-0">
