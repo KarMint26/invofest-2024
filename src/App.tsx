@@ -11,7 +11,7 @@ const App = () => {
   return (
     <React.Fragment>
       <Navbar />
-      <div className="pt-24">
+      <div className="pt-28">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/talkshow" element={<Talkshow />} />

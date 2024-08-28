@@ -20,7 +20,7 @@ const Navbar = () => {
             href="/"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
-            <img src={Logo} className="w-40" alt="Invofest Logo" />
+            <img src={Logo} className="w-48" alt="Invofest Logo" />
           </a>
           <button
             data-collapse-toggle="navbar-default"
