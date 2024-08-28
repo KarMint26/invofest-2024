@@ -43,7 +43,7 @@ const HeroHome = () => {
                     top: 500,
                   })
                 }
-                className="bg-invofest border-invofest border text-white px-3 py-2 sm:px-4 sm:py-3 font-semibold rounded-md cursor-pointer text-[0.7rem] sm:text-base"
+                className="bg-invofest border-invofest border text-white px-3 py-2 sm:px-4 sm:py-3 font-semibold rounded-md cursor-pointer text-[0.75rem] sm:text-base hover:bg-invofest_dark duration-300 ease-in-out"
               >
                 INFO SELENGKAPNYA
               </div>
@@ -51,7 +51,7 @@ const HeroHome = () => {
                 onClick={() => window.open("https://wa.me/6285972736905")}
                 data-aos="zoom-in"
                 data-aos-delay="550"
-                className="bg-white border-invofest border text-invofest px-3 py-2 sm:px-4 sm:py-3 font-semibold rounded-md cursor-pointer text-[0.7rem] sm:text-base"
+                className="bg-white border-invofest border text-invofest px-3 py-2 sm:px-4 sm:py-3 font-semibold rounded-md cursor-pointer text-[0.75rem] sm:text-base hover:text-white hover:bg-invofest duration-300 ease-in-out"
               >
                 HUBUNGI PANITIA
               </div>
