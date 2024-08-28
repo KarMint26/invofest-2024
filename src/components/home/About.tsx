@@ -41,12 +41,12 @@ const About = () => {
               teknologi.
             </p>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 mt-3 gap-3">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 mt-3 gap-5">
               <CardAbout
                 dataAos="zoom-in"
                 delayAos="150"
                 btnText="INFO SELENGKAPNYA"
-                desc="Seminar nasional ini membahas 'The Synergy of AI and Gen Z' untuk mengembangkan potensi diri dan pengetahuan teknologi."
+                desc="Seminar nasional ini membahas 'The Synergy of AI and Gen Z' untuk mengembangkan potensi diri dan pengetahuan teknologi lebih dalam lagi."
                 title="IT Seminar"
                 href="/seminar"
               />
@@ -54,7 +54,7 @@ const About = () => {
                 dataAos="zoom-in"
                 delayAos="350"
                 btnText="INFO SELENGKAPNYA"
-                desc="Talkshow 'Gen Z and AI' membahas peran Generasi Z dalam memanfaatkan AI untuk solusi berkelanjutan."
+                desc="Talkshow 'Gen Z and AI' membahas peran Generasi Z dalam memanfaatkan AI untuk solusi berkelanjutan dan peningkatan teknologi."
                 title="IT Talkshow"
                 href="/talkshow"
               />
