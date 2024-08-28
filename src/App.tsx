@@ -6,6 +6,7 @@ import Seminar from "./pages/Seminar";
 import Competition from "./pages/Competition";
 import Navbar from "./components/custom/Navbar";
 import Workshop from "./pages/Workshop";
+import Footer from "./components/custom/Footer";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/workshop" element={<Workshop />} />
       </Routes>
       </div>
+      <Footer />
     </React.Fragment>
   );
 };
