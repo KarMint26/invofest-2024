@@ -44,7 +44,7 @@ const HeroHome = () => {
                   isOutline={false}
                   handleClick={() =>
                     window.scrollTo({
-                      top: 500,
+                      top: 700,
                     })
                   }
                 />
