@@ -1,29 +1,29 @@
 import React from "react";
+import Logo from "/assets/nav-logo.png";
+import { Link, useLocation } from "react-router-dom";
 
 const Navbar = () => {
+  const location = useLocation();
+  const activeLink = location.pathname.split("/").pop();
+  const [openMenu, setOpenMenu] = React.useState<boolean>(false);
+
   return (
     <React.Fragment>
-      <nav className="bg-white border-gray-200 dark:bg-gray-900">
+      <nav className="bg-white border-gray-200 fixed top-0 w-full">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a
-            href="https://flowbite.com/"
+            href="/"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
-            <img
-              src="https://flowbite.com/docs/images/logo.svg"
-              className="h-8"
-              alt="Flowbite Logo"
-            />
-            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-              Flowbite
-            </span>
+            <img src={Logo} className="w-40" alt="Invofest Logo" />
           </a>
           <button
             data-collapse-toggle="navbar-default"
             type="button"
-            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
             aria-controls="navbar-default"
-            aria-expanded="false"
+            aria-expanded={`${openMenu ? true : false}`}
+            onClick={() => setOpenMenu(!openMenu)}
           >
             <span className="sr-only">Open main menu</span>
             <svg
@@ -42,48 +42,77 @@ const Navbar = () => {
               />
             </svg>
           </button>
-          <div className="hidden w-full md:block md:w-auto" id="navbar-default">
-            <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 roundedLg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <div className={`${!openMenu && 'hidden'} w-full lg:block lg:w-auto`} id="navbar-default">
+            <ul className="font-medium flex flex-col p-4 lg:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 lg:flex-row lg:space-x-8 rtl:space-x-reverse lg:mt-0 lg:border-0 lg:bg-white">
               <li>
-                <a
-                  href="#"
-                  className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                <Link
+                  to={"/"}
+                  className={`block py-2 px-3 ${
+                    activeLink === ""
+                      ? "text-white bg-invofest rounded lg:bg-transparent lg:text-invofest font-normal"
+                      : "text-slate-600 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-invofest"
+                  } lg:p-0`}
                   aria-current="page"
+                  onClick={() => setOpenMenu(false)}
                 >
-                  Home
-                </a>
+                  Beranda
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                <Link
+                  to={"/seminar"}
+                  className={`block py-2 px-3 ${
+                    activeLink === "seminar"
+                      ? "text-white bg-invofest rounded lg:bg-transparent lg:text-invofest font-normal"
+                      : "text-slate-600 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-invofest"
+                  } lg:p-0`}
+                  aria-current="page"
+                  onClick={() => setOpenMenu(false)}
                 >
-                  About
-                </a>
+                  Seminar
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                <Link
+                  to={"/competition"}
+                  className={`block py-2 px-3 ${
+                    activeLink === "competition"
+                      ? "text-white bg-invofest rounded lg:bg-transparent lg:text-invofest font-normal"
+                      : "text-slate-600 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-invofest"
+                  } lg:p-0`}
+                  aria-current="page"
+                  onClick={() => setOpenMenu(false)}
                 >
-                  Services
-                </a>
+                  Kompetisi
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                <Link
+                  to={"/workshop"}
+                  className={`block py-2 px-3 ${
+                    activeLink === "workshop"
+                      ? "text-white bg-invofest rounded lg:bg-transparent lg:text-invofest font-normal"
+                      : "text-slate-600 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-invofest"
+                  } lg:p-0`}
+                  aria-current="page"
+                  onClick={() => setOpenMenu(false)}
                 >
-                  Pricing
-                </a>
+                  Workshop
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                <Link
+                  to={"/talkshow"}
+                  className={`block py-2 px-3 ${
+                    activeLink === "talkshow"
+                      ? "text-white bg-invofest rounded lg:bg-transparent lg:text-invofest font-normal"
+                      : "text-slate-600 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-invofest"
+                  } lg:p-0`}
+                  aria-current="page"
+                  onClick={() => setOpenMenu(false)}
                 >
-                  Contact
-                </a>
+                  Talkshow
+                </Link>
               </li>
             </ul>
           </div>
