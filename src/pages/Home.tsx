@@ -1,13 +1,18 @@
+import About from "@/components/home/About";
 import HeroHome from "@/components/home/HeroHome";
+import { TitlePage } from "@/utils/TitlePage";
 import React from "react";
 
 const Home = () => {
+  TitlePage();
+
   return (
     <React.Fragment>
-      <div className="max-w-screen-xl">
-        {/* Hero Page */}
+        {/* Hero Section */}
         <HeroHome />
-      </div>
+
+        {/* About Section */}
+        <About />
     </React.Fragment>
   );
 };
