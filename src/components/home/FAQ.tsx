@@ -27,7 +27,7 @@ const FAQ = () => {
                   Punya Pertanyaan? Lihat{" "}
                   <span className="text-invofest">Disini</span>
                 </h2>
-                <p className="text-base text-dark-6">
+                <p className="text-base text-slate-600">
                   Ada banyak informasi yang terkait dengan INVOFEST, Anda dapat
                   melihat daftar pertanyaan di bawah ini.
                 </p>
