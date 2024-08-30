@@ -71,7 +71,7 @@ const About = () => {
                 delayAos="750"
                 btnText="INFO SELENGKAPNYA"
                 desc="Workshop 'Hands-On AI' membekali Gen Z dengan keterampilan praktis AI untuk menciptakan solusi berkelanjutan."
-                title="IT Competition"
+                title="IT Workshop"
                 href="/workshop"
               />
             </div>
