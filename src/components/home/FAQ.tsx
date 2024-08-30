@@ -40,7 +40,7 @@ const FAQ = () => {
               <div data-aos="zoom-in-down" data-aos-delay="50">
                 <AccordionItem
                   header="Apa itu INVOFEST?"
-                  text="Invofest (Informatics Vocational Festival) adalah festival tahunan yang bertujuan untuk menginspirasi dan memberdayakan generasi muda Indonesia dalam menghadapi era digital."
+                  text="Invofest (Informatics Vocational Festival) adalah festival tahunan yang diakan oleh program studi teknik informatika Politeknik Harapan Bersama Tegal,yang bertujuan untuk menginspirasi dan memberdayakan generasi muda Indonesia dalam menghadapi era digital."
                 />
               </div>
               <div data-aos="zoom-in-down" data-aos-delay="200">
