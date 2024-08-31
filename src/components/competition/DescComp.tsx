@@ -31,7 +31,7 @@ const DescComp = () => {
               className="text-center text-sm md:text-base lg:text-[1.35rem] sm:leading-[1.5rem] lg:leading-[2rem] text-slate-600"
             >
               Kompetisi atau perlombaan yang ada dalam kegiatan INVOFEST
-              (Infomatics Vocational Festival) 2023 adalah diantaranya National
+              (Infomatics Vocational Festival) 2024 adalah diantaranya National
               UI UX Design Competition, Software Development Competition, dan
               juga UI/UX Design Competition. Kompetisi dalam INVOFEST ini
               mengusung tema "AI Challenge: Gen Z's Quest for Digital
