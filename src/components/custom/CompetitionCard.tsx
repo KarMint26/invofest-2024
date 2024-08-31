@@ -12,7 +12,7 @@ import {
 import { Link } from "react-router-dom";
 import { FaBook } from "react-icons/fa6";
 import { FaTrophy } from "react-icons/fa6";
-import { FaTools } from "react-icons/fa";
+import { IoSend } from "react-icons/io5";
 
 type compCard = {
   ImageCard: any;
@@ -22,7 +22,7 @@ type compCard = {
   delayAos: string;
   linkGuideBook: string;
   linkReg: string;
-  linkTools: string;
+  linkPengumpulan: string;
 };
 
 const CompetitionCard = ({
@@ -33,7 +33,7 @@ const CompetitionCard = ({
   delayAos,
   linkGuideBook,
   linkReg,
-  linkTools
+  linkPengumpulan
 }: compCard) => {
   const [openDialog, setOpenDialog] = React.useState<boolean>(false);
 
@@ -63,15 +63,7 @@ const CompetitionCard = ({
                 className="before:ease w-full relative px-3 py-2 sm:px-4 sm:py-3 text-center border border-invofest bg-invofest text-white transition-all text-[0.75rem] sm:text-base rounded-sm sm:rounded-lg flex justify-center items-center gap-3"
               >
                 <FaBook />
-                <span className="relative z-10">LIHAT GUIDEBOOK</span>
-              </Link>
-              <Link
-                to={linkTools}
-                target="_blank"
-                className="before:ease w-full relative px-3 py-2 sm:px-4 sm:py-3 text-center border border-invofest bg-invofest text-white transition-all text-[0.75rem] sm:text-base rounded-sm sm:rounded-lg flex justify-center items-center gap-3"
-              >
-                <FaTools />
-                <span className="relative z-10">LIHAT PERLENGKAPAN</span>
+                <span className="relative z-10">GUIDEBOOK & PERLENGKAPAN</span>
               </Link>
               <Link
                 to={linkReg}
@@ -80,6 +72,14 @@ const CompetitionCard = ({
               >
                 <FaTrophy />
                 <span className="relative z-10">PENDAFTARAN KOMPETISI</span>
+              </Link>
+              <Link
+                to={linkPengumpulan}
+                target="_blank"
+                className="before:ease w-full relative px-3 py-2 sm:px-4 sm:py-3 text-center border border-invofest bg-invofest text-white transition-all text-[0.75rem] sm:text-base rounded-sm sm:rounded-lg flex justify-center items-center gap-3"
+              >
+                <IoSend />
+                <span className="relative z-10">PENGUMPULAN KARYA</span>
               </Link>
             </div>
           </DialogFooter>

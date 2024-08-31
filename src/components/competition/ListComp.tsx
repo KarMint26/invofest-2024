@@ -45,7 +45,7 @@ const ListComp = () => {
               ImageCard={SoftwareDevImg}
               linkGuideBook="https://drive.google.com/drive/folders/1LDpU9sUieKJuapFYqY0TUBkwV0VBFfWG?usp=drive_link"
               linkReg="https://forms.gle/dr9rZytG9fcBPLbr8"
-              linkTools="https://drive.google.com/drive/folders/1AlvZL59g5w34d34zHEiIhzHj1QI5mOjd?usp=drive_link"
+              linkPengumpulan="https://forms.gle/NzGkd7NjvFF2tTSe7"
             />
             <CompetitionCard
               dataAos="fade-up"
@@ -55,7 +55,7 @@ const ListComp = () => {
               ImageCard={UiUxImg}
               linkGuideBook="https://drive.google.com/drive/folders/10UWXXBV-XUts1rv0ww7FBE1lQ1l8EH5u?usp=drive_link"
               linkReg="https://forms.gle/ZCpEAKWis7nYrQeN6"
-              linkTools="https://drive.google.com/drive/folders/1z16njbrYAUp6UCaP7737hdbk5JHDy-dD?usp=drive_link"
+              linkPengumpulan="https://forms.gle/agoK6yvTtgcncJjv5"
             />
             <CompetitionCard
               dataAos="fade-up"
@@ -66,7 +66,7 @@ const ListComp = () => {
               ImageCard={WebDesignImg}
               linkGuideBook="https://drive.google.com/drive/folders/1YjXlJWCw9lMBjT26EK8xmDsDdeCwHnWh?usp=drive_link"
               linkReg="https://forms.gle/abYz7k5QY8g7V6Bu9"
-              linkTools="https://drive.google.com/drive/folders/1OooBgYOTDBYtFAMJw_3yNAFJL4NHmnE2?usp=drive_link"
+              linkPengumpulan="https://forms.gle/oKoj4Ex47v1Mr55B8"
             />
           </div>
         </div>
