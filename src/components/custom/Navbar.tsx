@@ -69,21 +69,6 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  to={"/seminar"}
-                  className={`block py-2 px-3 ${
-                    activeLink === "seminar"
-                      ? "text-white bg-invofest rounded lg:bg-transparent lg:text-invofest"
-                      : "text-slate-600 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-invofest"
-                  } lg:p-0 flex items-center gap-2`}
-                  aria-current="page"
-                  onClick={() => setOpenMenu(false)}
-                >
-                  <MdCoPresent />
-                  Seminar
-                </Link>
-              </li>
-              <li>
-                <Link
                   to={"/competition"}
                   className={`block py-2 px-3 ${
                     activeLink === "competition"
@@ -95,6 +80,21 @@ const Navbar = () => {
                 >
                   <FaTrophy />
                   Competition
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to={"/seminar"}
+                  className={`block py-2 px-3 ${
+                    activeLink === "seminar"
+                      ? "text-white bg-invofest rounded lg:bg-transparent lg:text-invofest"
+                      : "text-slate-600 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-invofest"
+                  } lg:p-0 flex items-center gap-2`}
+                  aria-current="page"
+                  onClick={() => setOpenMenu(false)}
+                >
+                  <MdCoPresent />
+                  Seminar
                 </Link>
               </li>
               <li>

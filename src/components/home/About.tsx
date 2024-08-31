@@ -62,7 +62,7 @@ const About = () => {
                 dataAos="zoom-in"
                 delayAos="550"
                 btnText="INFO SELENGKAPNYA"
-                desc="Kompetisi 'AI Challenge' mengajak Gen Z menciptakan solusi AI inovatif untuk mendukung keberlanjutan digital."
+                desc="Kompetisi 'AI Challenge: Gen Z's Quest for Digital Sustainability' mengajak Gen Z menciptakan solusi AI inovatif untuk mendukung keberlanjutan digital."
                 title="IT Competition"
                 href="/competition"
               />
