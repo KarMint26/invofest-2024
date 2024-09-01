@@ -1,9 +1,15 @@
 import React from "react";
 import AOS from "aos";
 import ButtonPrimary from "../custom/ButtonPrimary";
-import heroITSeminar from "/assets/Maskot-Seminar.png";
+import { CustomHeroProps } from "@/utils/types";
 
-const ITSeminarSec = () => {
+const CustomHero = ({
+  title,
+  subtitle,
+  description,
+  linkRegister,
+  image,
+}: CustomHeroProps) => {
   React.useEffect(() => {
     AOS.init({
       once: true,
@@ -14,7 +20,11 @@ const ITSeminarSec = () => {
   return (
     <React.Fragment>
       <div className="max-w-screen-xl mx-auto">
-        <div className="w-full h-fit p-4 px-8">
+        <div
+          className={`w-full h-fit ${
+            title === "IT Talkshow" ? "p-4 sm:p-20" : "p-4"
+          } px-8`}
+        >
           <div className="flex flex-col-reverse lg:flex-row justify-between items-center gap-3">
             <div className="flex flex-col gap-3 sm:gap-4">
               <h1
@@ -22,39 +32,42 @@ const ITSeminarSec = () => {
                 data-aos-delay="300"
                 className="font-semibold text-invofest text-3xl sm:text-4xl lg:text-5xl"
               >
-                IT Seminar
+                {title}
               </h1>
+              <h2
+                data-aos="fade-right"
+                data-aos-delay="450"
+                className="font-semibold text-invofest text-xl sm:text-2xl lg:text-3xl"
+              >
+                {subtitle}
+              </h2>
               <p
                 data-aos="fade-right"
                 data-aos-delay="300"
                 className="text-sm md:text-base lg:text-[1.35rem] sm:leading-[1.5rem] lg:leading-[2rem] text-slate-600"
               >
-                Seminar berskala nasional yang membahas seputar teknologi
-                informasi dan bertujuan untuk mengembangkan potensi diri serta
-                meningkatkan pengetahuan di bidang teknologi informasi yang
-                mengangkat tema "The Synergy of AI and Gen Z: Shaping a
-                Sustainable Digital Future".
+                {description}
               </p>
               <div className="flex items-center gap-3 sm:gap-4 lg:gap-5 mt-3">
                 <ButtonPrimary
-                  text={"DAFTAR IT SEMINAR"}
+                  text={"Daftar Sekarang"}
                   dataAos={"zoom-in"}
                   delayAos={"300"}
                   isOutline={false}
-                  isLink={true}
-                  href="/seminar"
-                  handleClick={() =>
-                    window.scrollTo({
-                      top: 700,
-                    })
-                  }
+                  handleClick={() => window.open(linkRegister, "_blank")}
                 />
               </div>
             </div>
             <img
-              src={heroITSeminar}
+              src={image}
               alt="hero-landing-page"
-              className="w-[320px] sm:w-[400px]"
+              className={`w-[320px] ${
+                title === "IT Seminar"
+                  ? "sm:w-[360px]"
+                  : "title === IT Talkshow"
+                  ? "sm:w-[460px]"
+                  : "sm:w-[400px]"
+              }`}
               data-aos="fade-up"
               data-aos-delay="100"
             />
@@ -65,4 +78,4 @@ const ITSeminarSec = () => {
   );
 };
 
-export default ITSeminarSec;
+export default CustomHero;

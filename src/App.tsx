@@ -15,13 +15,13 @@ const App = () => {
     <React.Fragment>
       <Navbar />
       <div className="pt-28">
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/talkshow" element={<Talkshow />} />
-        <Route path="/seminar" element={<Seminar />} />
-        <Route path="/competition" element={<Competition />} />
-        <Route path="/workshop" element={<Workshop />} />
-      </Routes>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/talkshow" element={<Talkshow />} />
+          <Route path="/seminar" element={<Seminar />} />
+          <Route path="/competition" element={<Competition />} />
+          <Route path="/workshop" element={<Workshop />} />
+        </Routes>
       </div>
       <BtnBackTop />
       <Footer />

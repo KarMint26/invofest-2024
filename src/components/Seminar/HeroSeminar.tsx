@@ -1,9 +1,9 @@
 import React from "react";
+import heroInvofest from "/assets/Maskot-Seminar.png";
 import AOS from "aos";
 import ButtonPrimary from "../custom/ButtonPrimary";
-import heroITSeminar from "/assets/Maskot-Seminar.png";
 
-const ITSeminarSec = () => {
+const HeroSeminar = () => {
   React.useEffect(() => {
     AOS.init({
       once: true,
@@ -24,35 +24,53 @@ const ITSeminarSec = () => {
               >
                 IT Seminar
               </h1>
+              <h2
+                data-aos="fade-right"
+                data-aos-delay="450"
+                className="font-semibold text-invofest text-xl sm:text-2xl lg:text-3xl"
+              >
+                “Hands-On AI: Equipping Gen Z with Tools for a Sustainable
+                Digital Future”
+              </h2>
               <p
                 data-aos="fade-right"
                 data-aos-delay="300"
                 className="text-sm md:text-base lg:text-[1.35rem] sm:leading-[1.5rem] lg:leading-[2rem] text-slate-600"
               >
-                Seminar berskala nasional yang membahas seputar teknologi
-                informasi dan bertujuan untuk mengembangkan potensi diri serta
-                meningkatkan pengetahuan di bidang teknologi informasi yang
-                mengangkat tema "The Synergy of AI and Gen Z: Shaping a
-                Sustainable Digital Future".
+                Seminar nasional ini membahas sinergi AI dan Gen Z untuk
+                membentuk masa depan digital yang berkelanjutan. Acara ini
+                bertujuan mengembangkan potensi diri dan pengetahuan di bidang
+                teknologi informasi.
               </p>
               <div className="flex items-center gap-3 sm:gap-4 lg:gap-5 mt-3">
                 <ButtonPrimary
-                  text={"DAFTAR IT SEMINAR"}
+                  text={"INFO SELENGKAPNYA"}
                   dataAos={"zoom-in"}
                   delayAos={"300"}
                   isOutline={false}
-                  isLink={true}
-                  href="/seminar"
                   handleClick={() =>
                     window.scrollTo({
                       top: 700,
                     })
                   }
                 />
+                <ButtonPrimary
+                  text={"HUBUNGI PANITIA"}
+                  dataAos={"zoom-in"}
+                  delayAos={"550"}
+                  isOutline={true}
+                  handleClick={() =>
+                    window.open(
+                      `https://wa.me/6285972736905?text=${encodeURIComponent(
+                        "Halo Kak, Saya Ingin Bertanya..."
+                      )}`
+                    )
+                  }
+                />
               </div>
             </div>
             <img
-              src={heroITSeminar}
+              src={heroInvofest}
               alt="hero-landing-page"
               className="w-[320px] sm:w-[400px]"
               data-aos="fade-up"
@@ -65,4 +83,4 @@ const ITSeminarSec = () => {
   );
 };
 
-export default ITSeminarSec;
+export default HeroSeminar;
