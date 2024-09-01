@@ -3,6 +3,7 @@ import CustomHero from "./CustomHero";
 import { GeneralLayoutProps } from "@/utils/types";
 import CustomAbout from "./CustomAbout";
 import FAQ from "../home/FAQ";
+import CustomEvents from "./CustomEvents";
 
 function GeneralLayout({
   heroTitle,
@@ -12,6 +13,7 @@ function GeneralLayout({
   image,
   aboutTitle,
   aboutDescription,
+  children,
 }: GeneralLayoutProps) {
   return (
     <React.Fragment>
@@ -23,6 +25,7 @@ function GeneralLayout({
         image={image}
       />
       <CustomAbout title={aboutTitle} description={aboutDescription} />
+      {children}
       <FAQ />
     </React.Fragment>
   );

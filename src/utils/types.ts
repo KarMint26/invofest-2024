@@ -19,4 +19,19 @@ export type GeneralLayoutProps = {
   image: string;
   aboutTitle: string;
   aboutDescription: string;
+  children: React.ReactNode;
+};
+
+export type CardSpeakerProps = {
+  delay: number;
+  name: string;
+  position: string;
+  image: string;
+};
+
+export type CustomEventsProps = {
+  title: string;
+  place: string;
+  time: string;
+  date: string;
 };
