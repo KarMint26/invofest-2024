@@ -35,3 +35,12 @@ export type CustomEventsProps = {
   time: string;
   date: string;
 };
+
+export type EventWorkshopProps = {
+  icon?: JSX.Element;
+  id: number;
+  title: string;
+  place: string;
+  date: string;
+  time: string;
+};

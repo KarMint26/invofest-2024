@@ -5,7 +5,7 @@ import WhiteWaveBot from "/assets/wave-bot.png";
 import { CustomEventsProps } from "@/utils/types";
 import { FaBuilding, FaLocationDot } from "react-icons/fa6";
 import CardEvents from "./CardEvents";
-import { FaCalendarAlt, FaTimes } from "react-icons/fa";
+import { FaCalendarAlt } from "react-icons/fa";
 import { IoMdClock } from "react-icons/io";
 
 const CustomEvents = ({ title, place, time, date }: CustomEventsProps) => {

@@ -3,13 +3,6 @@ import AOS from "aos";
 import CardSpeaker from "./CardSpeaker";
 
 const delays = [500, 1000, 1500];
-const arrayKu = [
-  {
-    name: "Pricilla",
-    position: "Pricilla",
-    image: "/assets/khusus/1.jpg",
-  },
-];
 type CustomSpeakerProps = {
   data: Array<any>;
 };
@@ -36,6 +29,7 @@ const CustomSpeaker = ({ data }: CustomSpeakerProps) => {
             {data.map((item, index) => {
               return (
                 <CardSpeaker
+                  key={index}
                   delay={delays[index]}
                   name={item.name}
                   position={item.position}

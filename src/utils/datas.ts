@@ -100,4 +100,34 @@ Acara ini dirancang untuk memberikan pengalaman belajar yang interaktif, di mana
       image: "/assets/hacker.jpeg",
     },
   ],
+  events: [
+    {
+      id: 1,
+      title: "Web Development",
+      date: "Selasa, 22 Oktober 2024",
+      place: "Lab Kom D.2",
+      time: "08.00 WIB - 16.30 WIB",
+    },
+    {
+      id: 2,
+      title: "Mobile Development",
+      date: "Selasa, 22 Oktober 2024",
+      place: "Lab Kom D.1",
+      time: "08.00 WIB - 16.30 WIB",
+    },
+    {
+      id: 3,
+      title: "Artificial Intelegence",
+      date: "Rabu, 23 Oktober 2024",
+      place: "Lab Kom D.2",
+      time: "08.00 WIB - 16.30 WIB",
+    },
+    {
+      id: 4,
+      title: "Cyber Security",
+      date: "Selasa, 22 Oktober 2024",
+      place: "Lab Kom D.1",
+      time: "08.00 WIB - 16.30 WIB",
+    },
+  ],
 };
