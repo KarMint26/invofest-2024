@@ -3,11 +3,11 @@ export const dataSeminar = {
   subtitle:
     "“The Synergy of All and Gen Z: Shaping a Sustainable Digital Future”",
   heroDescription:
-    "Seminar nasional ini membahas sinergi AI dan Gen Z untuk membentuk masa depan digital yang berkelanjutan. Acara ini bertujuan mengembangkan potensi diri dan pengetahuan di bidang teknologi informasi.",
+    "Seminar ini membahas sinergi AI dan Gen Z untuk membentuk masa depan digital yang berkelanjutan. Acara ini bertujuan mengembangkan potensi diri dan pengetahuan di bidang teknologi informasi.",
   linkRegister: "https://forms.gle/A3sx8cDS97K3ZQdN8",
   image: "/assets/Maskot-Seminar.png",
   aboutTitle: "Tentang  IT SEMINAR",
-  aboutDescription: `Seminar nasional bertajuk "The Synergy of AI and Gen Z: Shaping a Sustainable Digital Future" merupakan sebuah forum yang membahas peran vital kecerdasan buatan (AI) dalam kolaborasi dengan generasi Z untuk membangun masa depan digital yang lebih berkelanjutan. Seminar ini bertujuan untuk mengembangkan potensi diri dan memperluas wawasan peserta mengenai berbagai aspek teknologi informasi yang terus berkembang pesat. Melalui paparan dari para pakar, diskusi panel, dan sesi tanya jawab, peserta akan diajak untuk mengeksplorasi bagaimana sinergi antara AI dan Gen Z dapat mendorong inovasi teknologi yang tidak hanya relevan dengan kebutuhan industri masa kini, tetapi juga berkontribusi pada keberlanjutan lingkungan dan sosial. Acara ini diharapkan dapat menjadi wadah bagi para profesional, akademisi, dan mahasiswa untuk saling berbagi pengetahuan, memperkuat jaringan, dan merumuskan strategi yang tepat dalam menghadapi tantangan digital di masa depan.`,
+  aboutDescription: `Seminar bertajuk "The Synergy of AI and Gen Z: Shaping a Sustainable Digital Future" merupakan sebuah forum yang membahas peran vital kecerdasan buatan (AI) dalam kolaborasi dengan generasi Z untuk membangun masa depan digital yang lebih berkelanjutan. Seminar ini bertujuan untuk mengembangkan potensi diri dan memperluas wawasan peserta mengenai berbagai aspek teknologi informasi yang terus berkembang pesat. Melalui paparan dari para pakar, diskusi panel, dan sesi tanya jawab, peserta akan diajak untuk mengeksplorasi bagaimana sinergi antara AI dan Gen Z dapat mendorong inovasi teknologi yang tidak hanya relevan dengan kebutuhan industri masa kini, tetapi juga berkontribusi pada keberlanjutan lingkungan dan sosial. Acara ini diharapkan dapat menjadi wadah bagi para profesional, akademisi, dan mahasiswa untuk saling berbagi pengetahuan, memperkuat jaringan, dan merumuskan strategi yang tepat dalam menghadapi tantangan digital di masa depan.`,
   speakers: [
     {
       name: "Bill Gates",
@@ -24,7 +24,7 @@ export const dataSeminar = {
     {
       name: "Hacker Pro Tzy",
       position: "Anonymous",
-      image: "/assets/hacker.jpeg",
+      image: "/assets/isal.jpeg",
     },
   ],
   events: {
@@ -60,7 +60,7 @@ export const dataTalkshow = {
     {
       name: "Hacker Pro Tzy",
       position: "Anonymous",
-      image: "/assets/hacker.jpeg",
+      image: "/assets/isal.jpeg",
     },
   ],
   events: {
@@ -97,7 +97,7 @@ Acara ini dirancang untuk memberikan pengalaman belajar yang interaktif, di mana
     {
       name: "Hacker Pro Tzy",
       position: "Anonymous",
-      image: "/assets/hacker.jpeg",
+      image: "/assets/isal.jpeg",
     },
   ],
   events: [
