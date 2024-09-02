@@ -3,7 +3,6 @@ import CustomHero from "./CustomHero";
 import { GeneralLayoutProps } from "@/utils/types";
 import CustomAbout from "./CustomAbout";
 import FAQ from "../home/FAQ";
-import CustomEvents from "./CustomEvents";
 
 function GeneralLayout({
   heroTitle,
