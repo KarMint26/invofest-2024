@@ -43,24 +43,22 @@ export const dataTalkshow = {
   linkRegister: "https://forms.gle/2h5hEifEngicBko88",
   image: "/assets/Maskot-Talkshow.png",
   aboutTitle: "Tentang IT Talkshow",
-  aboutDescription: `Talkshow bertema "Gen Z dan AI: Memelopori Solusi Berkelanjutan di Era Digital" ini mengupas bagaimana generasi Z memanfaatkan kecerdasan buatan untuk menciptakan solusi yang berkelanjutan di era digital. Talkshow ini bertujuan untuk mengembangkan pengetahuan peserta mengenai teknologi informasi, sekaligus mendorong inovasi yang relevan dengan tantangan industri saat ini dan masa depan. Melalui diskusi, paparan dari pakar, dan sesi tanya jawab, peserta akan diajak untuk mengeksplorasi peran AI dalam membangun masa depan yang lebih baik, baik dari segi lingkungan maupun sosial.`,
+  aboutDescription: `Talkshow ini mengajak Generasi Z untuk memahami peran penting AI dalam menciptakan solusi berkelanjutan. Melalui diskusi interaktif, peserta akan mendapatkan wawasan dan inspirasi mengenai bagaimana memanfaatkan AI untuk menghadapi tantangan global dan memelopori perubahan positif di era digital`,
   speakers: [
     {
-      name: "Bill Gates",
-      position: "Founder Microsoft",
-      image:
-        "https://pbs.twimg.com/profile_images/1674815862879178752/nTGMV1Eo_400x400.jpg",
+      name: "Nurul Arifiah Gunarsih",
+      position: "ex Frontend Developer JD Technology",
+      image: "/assets/talkshow/nurul.png",
     },
     {
-      name: "Sundai Pichai",
-      position: "CEO Google",
-      image:
-        "https://images.assettype.com/fortuneindia%2F2022-12%2F0599e252-e61e-4aa3-be86-54e4761e48f2%2FSundar_Pichai_02064_copy.jpg?rect=0,0,2910,1637&w=1250&q=60",
+      name: "Muhamad Zaim Zamzami",
+      position: "Programmer PT Pertamina (PDSI)",
+      image: "/assets/talkshow/zaim.png",
     },
     {
-      name: "Hacker Pro Tzy",
-      position: "Anonymous",
-      image: "/assets/isal.jpeg",
+      name: "Nofi Bayu Darmawan",
+      position: "Founder & CEO Komerce",
+      image: "/assets/talkshow/nofi.jpg",
     },
   ],
   events: {

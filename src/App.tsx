@@ -2,7 +2,6 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Talkshow from "./pages/Talkshow";
-import CTalkshow from "./pages/CTalkshow";
 import Seminar from "./pages/Seminar";
 import CSeminar from "./pages/CSeminar";
 import Competition from "./pages/Competition";
@@ -20,13 +19,12 @@ const App = () => {
       <div className="pt-28">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/talkshow" element={<CTalkshow />} />
+          <Route path="/talkshow" element={<Talkshow />} />
           <Route path="/seminar" element={<CSeminar />} />
           <Route path="/competition" element={<Competition />} />
           <Route path="/workshop" element={<CWorkshop />} />
           <Route path="/seminar2" element={<Seminar />} />
           <Route path="/workshop2" element={<Workshop />} />
-          <Route path="/talkshow2" element={<Talkshow />} />
         </Routes>
       </div>
       <BtnBackTop />
