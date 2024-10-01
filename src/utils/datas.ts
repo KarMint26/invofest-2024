@@ -81,26 +81,24 @@ export const dataWorkshop = {
 Acara ini dirancang untuk memberikan pengalaman belajar yang interaktif, di mana peserta dapat langsung menerapkan pengetahuan yang didapat dalam proyek nyata. Workshop ini juga menjadi kesempatan bagi Gen Z untuk mengeksplorasi potensi mereka di bidang teknologi informasi dan berkontribusi secara positif dalam perkembangan teknologi.`,
   speakers: [
     {
-      name: "Bill Gates",
-      position: "Founder Microsoft",
-      image:
-        "https://pbs.twimg.com/profile_images/1674815862879178752/nTGMV1Eo_400x400.jpg",
+      name: "Nur Ichsan",
+      position: "Website Development",
+      image:"/assets/workshop/14.png",
     },
     {
-      name: "Sundai Pichai",
-      position: "CEO Google",
-      image:
-        "https://images.assettype.com/fortuneindia%2F2022-12%2F0599e252-e61e-4aa3-be86-54e4761e48f2%2FSundar_Pichai_02064_copy.jpg?rect=0,0,2910,1637&w=1250&q=60",
+      name: "Lhuqita Fazry",
+      position: "Mobile Development",
+      image:"assets/workshop/16.png",
     },
     {
-      name: "Hacker Pro Tzy",
-      position: "Anonymous",
-      image: "/assets/isal.jpeg",
+      name: "Dwi Hartanto",
+      position: "Artificial Intelegence",
+      image: "assets/workshop/15.png",
     },
     {
-      name: "Sundai Pichai",
-      position: "CEO Google",
-      image:""
+      name: "Tohirin",
+      position: "Cyber Security",
+      image:"assets/workshop/17.png"
     },
   ],
   events: [

@@ -22,9 +22,9 @@ const App = () => {
           <Route path="/talkshow" element={<Talkshow />} />
           <Route path="/seminar" element={<CSeminar />} />
           <Route path="/competition" element={<Competition />} />
-          <Route path="/workshop" element={<CWorkshop />} />
+          <Route path="/workshop" element={<Workshop />} />
           <Route path="/seminar2" element={<Seminar />} />
-          <Route path="/workshop2" element={<Workshop />} />
+          <Route path="/workshop2" element={<CWorkshop />} />
         </Routes>
       </div>
       <BtnBackTop />
