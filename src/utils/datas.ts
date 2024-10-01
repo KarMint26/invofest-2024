@@ -11,12 +11,12 @@ export const dataSeminar = {
   speakers: [
     {
       name: "Martin Novela",
-      position: "Co-Founder PT Indonesia Digital Goldstar",
+      position: "Product Manager Vokal.ai",
       image:"/assets/seminar/21.webp",
     },
     {
       name: "Edi Kurniawan",
-      position: "Product Manager Vokal.ai",
+      position: "Co-Founder PT Indonesia Digital Goldstar",
       image:"/assets/seminar/22.webp",
     },
 
