@@ -10,22 +10,16 @@ export const dataSeminar = {
   aboutDescription: `Seminar bertajuk "The Synergy of AI and Gen Z: Shaping a Sustainable Digital Future" merupakan sebuah forum yang membahas peran vital kecerdasan buatan (AI) dalam kolaborasi dengan generasi Z untuk membangun masa depan digital yang lebih berkelanjutan. Seminar ini bertujuan untuk mengembangkan potensi diri dan memperluas wawasan peserta mengenai berbagai aspek teknologi informasi yang terus berkembang pesat. Melalui paparan dari para pakar, diskusi panel, dan sesi tanya jawab, peserta akan diajak untuk mengeksplorasi bagaimana sinergi antara AI dan Gen Z dapat mendorong inovasi teknologi yang tidak hanya relevan dengan kebutuhan industri masa kini, tetapi juga berkontribusi pada keberlanjutan lingkungan dan sosial. Acara ini diharapkan dapat menjadi wadah bagi para profesional, akademisi, dan mahasiswa untuk saling berbagi pengetahuan, memperkuat jaringan, dan merumuskan strategi yang tepat dalam menghadapi tantangan digital di masa depan.`,
   speakers: [
     {
-      name: "Bill Gates",
-      position: "Founder Microsoft",
-      image:
-        "https://pbs.twimg.com/profile_images/1674815862879178752/nTGMV1Eo_400x400.jpg",
+      name: "Martin Novela",
+      position: "Co-Founder PT Indonesia Digital Goldstar",
+      image:"/assets/seminar/21.webp",
     },
     {
-      name: "Sundai Pichai",
-      position: "CEO Google",
-      image:
-        "https://images.assettype.com/fortuneindia%2F2022-12%2F0599e252-e61e-4aa3-be86-54e4761e48f2%2FSundar_Pichai_02064_copy.jpg?rect=0,0,2910,1637&w=1250&q=60",
+      name: "Edi Kurniawan",
+      position: "Product Manager Vokal.ai",
+      image:"/assets/seminar/22.webp",
     },
-    {
-      name: "Hacker Pro Tzy",
-      position: "Anonymous",
-      image: "/assets/isal.jpeg",
-    },
+
   ],
   events: {
     title: "IT Seminar",
@@ -48,17 +42,17 @@ export const dataTalkshow = {
     {
       name: "Nurul Arifiah Gunarsih",
       position: "ex Frontend Developer JD Technology",
-      image: "/assets/talkshow/nurul.png",
+      image: "/assets/talkshow/19.webp",
     },
     {
       name: "Muhamad Zaim Zamzami",
       position: "Programmer PT Pertamina (PDSI)",
-      image: "/assets/talkshow/zaim.png",
+      image: "/assets/talkshow/18.webp",
     },
     {
       name: "Nofi Bayu Darmawan",
       position: "Founder & CEO Komerce",
-      image: "/assets/talkshow/nofi.jpg",
+      image: "/assets/talkshow/20.webp",
     },
   ],
   events: {
@@ -83,22 +77,22 @@ Acara ini dirancang untuk memberikan pengalaman belajar yang interaktif, di mana
     {
       name: "Nur Ichsan",
       position: "Website Development",
-      image:"/assets/workshop/14.png",
+      image:"/assets/workshop/14.webp",
     },
     {
       name: "Lhuqita Fazry",
       position: "Mobile Development",
-      image:"assets/workshop/16.png",
+      image:"assets/workshop/16.webp",
     },
     {
       name: "Dwi Hartanto",
       position: "Artificial Intelegence",
-      image: "assets/workshop/15.png",
+      image: "assets/workshop/15.webp",
     },
     {
       name: "Tohirin",
       position: "Cyber Security",
-      image:"assets/workshop/17.png"
+      image:"assets/workshop/17.webp"
     },
   ],
   events: [
