@@ -2,6 +2,7 @@
 
 import { cn } from "@/lib/utils";
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 export const InfiniteMovingCards = ({
   items,
@@ -89,7 +90,13 @@ export const InfiniteMovingCards = ({
             className="w-[350px] flex justify-center items-center max-w-full relative rounded-2xl flex-shrink-0 px-8 py-6 md:w-[450px] bg-transparent"
             key={item.id}
           >
-            <img src={item.img_path} alt={`sponsor-logo-${item.id}`} />
+            {item.img_path === "/assets/sponsor/dicoding_official.png" ? (
+              <Link to={"https://dicoding.com"} target="_blank">
+                <img src={item.img_path} alt={`sponsor-logo-${item.id}`} />
+              </Link>
+            ) : (
+              <img src={item.img_path} alt={`sponsor-logo-${item.id}`} />
+            )}
           </li>
         ))}
       </ul>
