@@ -12,20 +12,19 @@ export const dataSeminar = {
     {
       name: "Martin Novela",
       position: "Product Manager Vokal.ai",
-      image:"/assets/seminar/21.webp",
+      image: "/assets/seminar/21.webp",
     },
     {
       name: "Edi Kurniawan",
       position: "Co-Founder PT Indonesia Digital Goldstar",
-      image:"/assets/seminar/22.webp",
+      image: "/assets/seminar/22.webp",
     },
-
   ],
   events: {
     title: "IT Seminar",
     place: "Aula Gedung C",
     time: "08.00 WIB - 11.30 WIB",
-    date: "Senin, 24 Oktober 2024",
+    date: "Kamis, 24 Oktober 2024",
   },
 };
 
@@ -77,12 +76,12 @@ Acara ini dirancang untuk memberikan pengalaman belajar yang interaktif, di mana
     {
       name: "Nur Ichsan",
       position: "Website Development",
-      image:"/assets/workshop/14.webp",
+      image: "/assets/workshop/14.webp",
     },
     {
       name: "Lhuqita Fazry",
       position: "Mobile Development",
-      image:"assets/workshop/16.webp",
+      image: "assets/workshop/16.webp",
     },
     {
       name: "Dwi Hartanto",
@@ -92,7 +91,7 @@ Acara ini dirancang untuk memberikan pengalaman belajar yang interaktif, di mana
     {
       name: "Tohirin",
       position: "Cyber Security",
-      image:"assets/workshop/17.webp"
+      image: "assets/workshop/17.webp",
     },
   ],
   events: [
