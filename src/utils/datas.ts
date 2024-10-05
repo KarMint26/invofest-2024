@@ -106,7 +106,7 @@ Acara ini dirancang untuk memberikan pengalaman belajar yang interaktif, di mana
     {
       id: 2,
       title: "Mobile Development",
-      date: "Selasa, 22 Oktober 2024",
+      date: "Rabu, 23 Oktober 2024",
       place: "Lab Kom D.1",
       time: "08.00 WIB - 16.30 WIB",
     },
@@ -120,7 +120,7 @@ Acara ini dirancang untuk memberikan pengalaman belajar yang interaktif, di mana
     {
       id: 4,
       title: "Cyber Security",
-      date: "Rabu, 23 Oktober 2024",
+      date: "Selasa, 22 Oktober 2024",
       place: "Lab Kom D.1",
       time: "08.00 WIB - 16.30 WIB",
     },
