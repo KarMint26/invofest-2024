@@ -12,7 +12,7 @@ export function Sponsorship() {
 
   return (
     <React.Fragment>
-      <div className="h-[40rem] rounded-md flex flex-col antialiased bg-white items-center justify-center relative overflow-hidden">
+      <div className="h-[40rem] mt-16 rounded-md flex flex-col antialiased bg-white items-center justify-center relative overflow-hidden">
         <h1
           data-aos="fade-up"
           data-aos-delay="150"

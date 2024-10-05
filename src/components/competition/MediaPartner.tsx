@@ -12,11 +12,11 @@ export function MediaPartner() {
 
   return (
     <React.Fragment>
-      <div className="h-[40rem] rounded-md flex flex-col antialiased bg-white items-center justify-center relative overflow-hidden">
+      <div className="h-[40rem] mt-16 rounded-md flex flex-col antialiased bg-white items-center justify-center relative overflow-hidden">
         <h1
           data-aos="fade-up"
           data-aos-delay="150"
-          className="mt-8 mb-6 text-3xl font-bold text-slate-600 sm:text-[40px]/[48px]"
+          className="mt-8 text-3xl font-bold text-slate-600 sm:text-[40px]/[48px]"
         >
           Media Partner <span className="text-invofest">INVOFEST 2024</span>
         </h1>
