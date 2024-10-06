@@ -67,7 +67,7 @@ export const dataWorkshop = {
   subtitle:
     "“Hands-On AI: Equipping Gen Z with Tools for a Sustainable Digital Future”",
   heroDescription: `IT Workshop ini dirancang untuk membekali Gen Z dengan keterampilan kecerdasan buatan (AI) yang akan mendukung terciptanya masa depan digital yang berkelanjutan. Melalui kegiatan ini, kami berharap para peserta dapat mengembangkan potensi diri dan memperdalam pengetahuan di bidang teknologi informasi.`,
-  linkRegister: "https://forms.gle/iW6yNNPSPCz7tpaz9",
+  linkRegister: "https://docs.google.com/forms/d/e/1FAIpQLSd-_uzd87ai-huDpO8xqT6rWtwIIrJm-6iy0CluS07t-tCLfQ/viewform",
   image: "/assets/Maskot-Workshop.png",
   aboutTitle: "Tentang IT Workshop",
   aboutDescription: `IT Workshop “Hands-On AI: Equipping Gen Z with Tools for a Sustainable Digital Future” adalah kegiatan yang bertujuan untuk membekali generasi muda dengan keterampilan praktis di bidang kecerdasan buatan (AI). Melalui sesi hands-on, peserta akan diperkenalkan pada berbagai alat dan teknik AI yang dapat digunakan untuk menghadapi tantangan di era digital, sekaligus mendorong terciptanya masa depan yang lebih berkelanjutan.
