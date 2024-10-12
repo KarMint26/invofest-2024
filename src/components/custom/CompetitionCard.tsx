@@ -68,8 +68,8 @@ const CompetitionCard = ({
 
 
 
-                                                                                   {/* close register */}
-                                                                      {/* unCommand code when open the register again */}
+                                                                                         {/* close register */}
+                                                                      {/* unCommand the code, when open register again thanks */}
 
               {/* <Link
                 to={linkReg}
