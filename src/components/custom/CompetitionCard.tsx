@@ -31,9 +31,9 @@ const CompetitionCard = ({
   ImageCard,
   dataAos,
   delayAos,
-  linkGuideBook,
-  linkReg,
-  linkPengumpulan
+  linkGuideBook
+  // linkReg,
+  // linkPengumpulan
 }: compCard) => {
   const [openDialog, setOpenDialog] = React.useState<boolean>(false);
 
@@ -65,22 +65,31 @@ const CompetitionCard = ({
                 <FaBook />
                 <span className="relative z-10">GUIDEBOOK & PERLENGKAPAN</span>
               </Link>
-              <Link
+
+
+
+                                                                                   {/* close register */}
+                                                                      {/* unCommand code when open the register again */}
+
+              {/* <Link
                 to={linkReg}
                 target="_blank"
                 className="before:ease w-full relative px-3 py-2 sm:px-4 sm:py-3 text-center border border-invofest bg-invofest text-white transition-all text-[0.75rem] sm:text-base rounded-sm sm:rounded-lg flex justify-center items-center gap-3"
               >
                 <FaTrophy />
                 <span className="relative z-10">PENDAFTARAN KOMPETISI</span>
-              </Link>
-              <Link
+              </Link> */}
+              {/* <Link
                 to={linkPengumpulan}
                 target="_blank"
                 className="before:ease w-full relative px-3 py-2 sm:px-4 sm:py-3 text-center border border-invofest bg-invofest text-white transition-all text-[0.75rem] sm:text-base rounded-sm sm:rounded-lg flex justify-center items-center gap-3"
               >
                 <IoSend />
                 <span className="relative z-10">PENGUMPULAN KARYA</span>
-              </Link>
+              </Link> */}
+
+
+
             </div>
           </DialogFooter>
         </DialogContent>
