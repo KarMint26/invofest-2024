@@ -11,8 +11,8 @@ import {
 } from "../ui/dialog";
 import { Link } from "react-router-dom";
 import { FaBook } from "react-icons/fa6";
-import { FaTrophy } from "react-icons/fa6";
-import { IoSend } from "react-icons/io5";
+// import { FaTrophy } from "react-icons/fa6";
+// import { IoSend } from "react-icons/io5";
 
 type compCard = {
   ImageCard: any;
