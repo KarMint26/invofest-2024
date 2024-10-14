@@ -11,7 +11,7 @@ export const dataSeminar = {
   speakers: [
     {
       name: "Martin Novela",
-      position: "Product Manager Vokal.ai",
+      position: "Head Of Product Vokal.ai",
       image: "/assets/seminar/21.webp",
     },
     {
@@ -45,7 +45,7 @@ export const dataTalkshow = {
     },
     {
       name: "Muhamad Zaim Zamzami",
-      position: "Programmer PT Pertamina (PDSI)",
+      position: "Programmer PT Pertamina Drill (PDSI)",
       image: "/assets/talkshow/18.webp",
     },
     {
