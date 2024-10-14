@@ -59,4 +59,16 @@ const mediaPartner = [
     id: 7,
     img_path: "/assets/media_partner/permikomnas.png",
   },
+  {
+    id: 8,
+    img_path: "/assets/media_partner/HimaASP.png",
+  },
+  {
+    id: 9,
+    img_path: "/assets/media_partner/HimaTekom.jpg",
+  },
+  {
+    id: 10,
+    img_path: "/assets/media_partner/LogoSemata.png",
+  },
 ];
