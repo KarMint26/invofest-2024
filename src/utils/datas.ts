@@ -23,7 +23,7 @@ export const dataSeminar = {
   events: {
     title: "IT Seminar",
     place: "Aula Gedung C",
-    time: "08.00 WIB - 11.30 WIB",
+    time: "08.00 WIB - 12.30 WIB",
     date: "Kamis, 24 Oktober 2024",
   },
 };
@@ -57,7 +57,7 @@ export const dataTalkshow = {
   events: {
     title: "IT Talkshow",
     place: "Aula Gedung C",
-    time: "08.00 WIB - 11.30 WIB",
+    time: "08.00 WIB - 12.30 WIB",
     date: "Senin, 21 Oktober 2024",
   },
 };
